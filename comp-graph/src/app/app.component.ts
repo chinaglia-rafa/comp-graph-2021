@@ -9,8 +9,8 @@ export class AppComponent {
   title = 'comp-graph';
 
   menu = [
-    { name: 'Página Inicial', icon: 'home', link: '/' },
-    { name: 'Conversor', icon: 'home', link: '/converter' },
-    { name: 'Sobre', icon: 'info', link: '/about' },
+    { name: 'Página Inicial', iconType: 'icon', icon: 'home', link: '/' },
+    { name: 'Conversor', iconType: 'img', icon: './assets/cor.png', link: '/converter' },
+    { name: 'Sobre', iconType: 'icon', icon: 'info', link: '/about' },
   ];
 }

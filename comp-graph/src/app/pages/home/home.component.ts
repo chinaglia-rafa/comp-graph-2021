@@ -12,4 +12,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  goto(url: string): void {
+    console.log('url', url);
+  }
+
 }
